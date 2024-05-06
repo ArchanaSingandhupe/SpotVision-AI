@@ -1,0 +1,13 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+runOnSave = true
+maxUploadSize = 50
+maxMessageSize = 50
+
+[theme]
+primaryColor="#F63366"
+backgroundColor="#FCF2E5"
+secondaryBackgroundColor="#F8E4C7"
+textColor="#302730"
