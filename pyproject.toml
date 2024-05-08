@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "skin-cancer-detection"
+name = "SpotVision AI"
 version = "0.1.0"
-description = "A streamlit app for skin cancer detection"
+description = "Our cutting-edge application harnesses the power of deep learning and computer vision to analyze skin images and predict potential diseases with remarkable accuracy of 72%."
+authors = ["Archana Singandhupe <ArchanaSingandhupe@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 package-mode = false
-
+homepage = "https://github.com/ArchanaSingandhupe/SpotVision-AI.git"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
@@ -14,6 +15,7 @@ tensorflow-io-gcs-filesystem = "0.27.0"
 tensorflow = "2.12"
 streamlit-lottie = "^0.0.5"
 geopy = "^2.4.1"
+opencv-python = "^4.9.0.80"
 
 
 [build-system]

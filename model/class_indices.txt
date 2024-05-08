@@ -1,0 +1,1 @@
+{0: 'actinic keratosis', 1: 'basal cell carcinoma', 2: 'dermatofibroma', 3: 'melanoma', 4: 'nevus', 5: 'pigmented benign keratosis', 6: 'squamous cell carcinoma', 7: 'vascular lesion'}

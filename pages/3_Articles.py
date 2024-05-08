@@ -51,7 +51,7 @@ with st.container(border=True):
         )
     with cols[1]:
         st.image(
-            "./images/Actinic_Keratosis.jpg",
+            "./articles/Actinic_Keratosis.jpg",
             caption="Actinic keratoses",
             use_column_width=True,
         )
@@ -60,7 +60,7 @@ with st.container(border=True):
     cols = st.columns(2)
     with cols[0]:
         st.image(
-            "./images/basal-cell-carcinoma.jpg",
+            "./articles/basal-cell-carcinoma.jpg",
             caption="Basal cell carcinoma",
             use_column_width=True,
         )
@@ -110,7 +110,7 @@ with st.container(border=True):
         )
     with cols[1]:
         st.image(
-            "./images/Dermatofibroma.jpg",
+            "./articles/Dermatofibroma.jpg",
             caption="Dermatofibroma",
             use_column_width=True,
         )
@@ -119,7 +119,7 @@ with st.container(border=True):
     cols = st.columns(2)
     with cols[0]:
         st.image(
-            "./images/Melanoma.jpg",
+            "./articles/Melanoma.jpg",
             caption="Melanoma",
             use_column_width=True,
         )
@@ -167,7 +167,7 @@ with st.container(border=True):
         )
     with cols[1]:
         st.image(
-            "./images/Nevus.jpg",
+            "./articles/Nevus.jpg",
             caption="Nevus",
             use_column_width=True,
         )
@@ -177,7 +177,7 @@ with st.container(border=True):
     cols = st.columns(2)
     with cols[0]:
         st.image(
-            "./images/Seborrheic.jpg",
+            "./articles/Seborrheic.jpg",
             caption="Seborrheic keratosis",
             use_column_width=True,
         )
@@ -225,7 +225,7 @@ with st.container(border=True):
         )
     with cols[1]:
         st.image(
-            "./images/Squamous.jpg",
+            "./articles/Squamous.jpg",
             caption="Squamous cell carcinoma",
             use_column_width=True,
         )
@@ -235,7 +235,7 @@ with st.container(border=True):
     cols = st.columns(2)
     with cols[0]:
         st.image(
-            "./images/Vascular.jpg",
+            "./articles/Vascular.jpg",
             caption="Vascular lesion",
             use_column_width=True,
         )
