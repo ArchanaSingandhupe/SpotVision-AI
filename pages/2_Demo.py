@@ -24,7 +24,7 @@ def focal_loss(gamma=2., alpha=0.25):
 
 # Load the custom loss function
 custom_loss = focal_loss(gamma=2., alpha=0.25)
-# @st.cache_resource
+@st.cache_resource
 def load_model():
     # model = tf.keras.models.load_model("./model/model.h5")
     model = tf.keras.models.load_model('./model/best_model_inception_v2.h5', custom_objects={'focal_loss_fixed': custom_loss})
@@ -89,8 +89,12 @@ if st.button("Predict"):
                 # prediction = tf.nn.softmax(prediction) # Already softmax in the model
 
             with st.spinner("Predicting..."):
-                prediction = model.predict(img)
-                print(prediction)
+                try:
+                    prediction = model.predict(img)
+                except Exception as e:
+                    st.error(f"Error during prediction: {str(e)}")
+                    st.stop()
+                # prediction = model.predict(img)
                 predicted_class = np.argmax(prediction)
                 score = tf.reduce_max(prediction)
                 score = tf.round(score * 100, 2)
