@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 
 st.set_page_config(
-    page_title="Skin Cancer",
+    page_title="SpotVision.AI",
     page_icon="♋",
     layout="wide",
     initial_sidebar_state="expanded",

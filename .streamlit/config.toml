@@ -7,7 +7,7 @@ maxUploadSize = 50
 maxMessageSize = 50
 
 [theme]
-primaryColor="#F63366"
-backgroundColor="#FCF2E5"
-secondaryBackgroundColor="#F8E4C7"
-textColor="#302730"
+primaryColor = "#6B46C1"  # More purplish shade
+backgroundColor = "#F0F4F8"
+secondaryBackgroundColor = "#E9D8FD"  # Light purple
+textColor = "#1A202C"

@@ -11,7 +11,7 @@ def load_lottieurl(url):
 
 
 st.set_page_config(
-    page_title="Skin Cancer",
+    page_title="SpotVision.AI",
     page_icon="♋",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -56,17 +56,15 @@ with st.container():
         st.write("##")
         st.write(
             """
-            Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to
-            reduce a lot of manual effort needed in diagnosis.
+            Melanoma is a potentially deadly type of cancer, responsible for 75% of skin cancer-related deaths. Early detection is crucial. Our solution automates image evaluation, alerting dermatologists to the presence of melanoma, significantly reducing manual diagnostic effort.
 
-            Our application detects the following diseases:
+            SpotVision.AI detects the following diseases:
             * Actinic keratosis,
             * Basal cell carcinoma,
             * Dermatofibroma,
             * Melanoma,
             * Nevus,
             * Pigmented benign keratosis,
-            * Seborrheic keratosis,
             * Squamous cell carcinoma,
             * Vascular lesion.
             """
