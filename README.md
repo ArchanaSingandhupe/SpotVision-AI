@@ -1,5 +1,5 @@
 # SpotVisionAI
-Our cutting-edge application harnesses the power of deep learning and computer vision to analyze skin images and predict potential diseases with remarkable accuracy of 80%.
+Our cutting-edge application harnesses the power of deep learning and computer vision to analyze skin images and predict potential diseases with remarkable accuracy of 71%.
 
 ## Running
 
