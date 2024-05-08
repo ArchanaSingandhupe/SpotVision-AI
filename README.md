@@ -21,6 +21,11 @@ Our cutting-edge application harnesses the power of deep learning and computer v
     pip install poetry
     poetry install
     ```
+2. Optional, Sometimes on windows, you need to install tensorflow again.
+
+    ```bash
+    pip install tensorflow
+    ```
 
 1. Run the app
 
