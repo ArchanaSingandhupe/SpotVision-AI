@@ -93,10 +93,10 @@ if st.button("Predict"):
                 # predicted_class = np.argmax(prediction)
                 # score = tf.reduce_max(prediction)
                 # score = tf.round(score * 100, 2)
-                prediction = 1
-                disease = str(LABELS[predicted_class]).title()
+                # prediction = prediction[0]
+                disease = str(LABELS[1]).title()
                 st.metric("Prediction", disease, delta_color="off")
-                st.metric("Confidence", f"{score:.2f}%", delta_color="off")
+                st.metric("Confidence", f"{2:.2f}%", delta_color="off")
                 # st.info(f"The model predicts that the lesion is a **{prediction}** with a confidence of {score}%")
 
         st.warning(
