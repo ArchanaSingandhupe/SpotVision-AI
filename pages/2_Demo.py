@@ -89,17 +89,11 @@ if st.button("Predict"):
                 # prediction = tf.nn.softmax(prediction) # Already softmax in the model
 
             with st.spinner("Predicting..."):
-                try:
-                    prediction = model.predict(img)
-                except Exception as e:
-                    st.error(f"Error during prediction: {str(e)}")
-                    st.stop()
                 # prediction = model.predict(img)
-                predicted_class = np.argmax(prediction)
-                score = tf.reduce_max(prediction)
-                score = tf.round(score * 100, 2)
-
-                prediction = prediction[0]
+                # predicted_class = np.argmax(prediction)
+                # score = tf.reduce_max(prediction)
+                # score = tf.round(score * 100, 2)
+                prediction = 1
                 disease = str(LABELS[predicted_class]).title()
                 st.metric("Prediction", disease, delta_color="off")
                 st.metric("Confidence", f"{score:.2f}%", delta_color="off")
