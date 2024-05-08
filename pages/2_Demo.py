@@ -5,6 +5,7 @@ import cv2
 import numpy as np
 from PIL import Image
 import os 
+import logging
 
 st.set_page_config(
     page_title="SpotVision.AI",
@@ -89,7 +90,12 @@ if st.button("Predict"):
                 # prediction = tf.nn.softmax(prediction) # Already softmax in the model
 
             with st.spinner("Predicting..."):
-                prediction = model.predict(img)
+                try:
+                    prediction = model.predict(img)
+                except Exception as e:
+                    logger.error(f"Error during prediction: {str(e)}")
+                    st.error(f"Error during prediction: {str(e)}")
+                    st.stop()
                 predicted_class = np.argmax(prediction)
                 score = tf.reduce_max(prediction)
                 score = tf.round(score * 100, 2)
