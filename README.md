@@ -1,7 +1,7 @@
 # SpotVisionAI
-Our cutting-edge application harnesses the power of deep learning and computer vision to analyze skin images and predict potential diseases with remarkable accuracy of 71%.
-
-Visit the [SpotVision.AI](https://spotvisionai.streamlit.app/)
+> **SpotVisionAI : Platform that harnesses the power of deep learning and computer vision to analyze skin images and predict potential diseases with remarkable accuracy of 71%.** <br><br>
+> Visit [SpotVision.AI](https://spotvisionai.streamlit.app/)<br><br>
+> ![Home Page](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/New%20Project%20(1).png)<br><br>
 
 ## Running
 
