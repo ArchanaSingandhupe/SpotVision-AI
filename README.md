@@ -37,6 +37,9 @@ Visit the [SpotVision.AI](https://spotvisionai.streamlit.app/)
 
 ## Snapshots
 
+### Home page
 ![Home Page](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/welcome.png)
+### Upload Image
 ![Upload Image](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/detect.png)
+### Get Result : Caution, this is not a medical diagnosis
 ![Output](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/resukt.png)
