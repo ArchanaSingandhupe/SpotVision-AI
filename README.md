@@ -34,3 +34,9 @@ Visit the [SpotVision.AI](https://spotvisionai.streamlit.app/)
     ```bash
     streamlit run ./About.py
     ```
+
+## Snapshots
+
+![Home Page](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/welcome.png)
+![Upload Image](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/detect.png)
+![Output](https://github.com/ArchanaSingandhupe/SpotVision-AI/blob/main/articles/resukt.png)
