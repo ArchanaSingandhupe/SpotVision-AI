@@ -84,7 +84,7 @@ with st.container():
         """
         Our cutting-edge application harnesses the power of deep learning and computer vision to analyze skin images and predict potential diseases with remarkable accuracy of 71% 
         ##
-        [Learn More >](/:)
+        [Learn More >](https://youtu.be/IDWixA8eeG8?si=oxa1TgBEP8VZnN-2)
         """
     with cols[1]:
         st_lottie(lottie_healthy, height=300, key="healthy")
