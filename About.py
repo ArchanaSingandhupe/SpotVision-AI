@@ -56,7 +56,7 @@ with st.container():
         st.write("##")
         st.write(
             """
-            Melanoma is a potentially deadly type of cancer, responsible for 75% of skin cancer-related deaths. Early detection is crucial. Our solution automates image evaluation, alerting dermatologists to the presence of melanoma, significantly reducing manual diagnostic effort.
+            Melanoma is one of the deadliest forms of skin cancer, responsible for 75% of all skin cancer-related deaths. Early detection is critical for survival. SpotVision.Ai offers a reliable solution by identifying melanoma through skin images. We specialize in detecting various types of skin lesions.
 
             SpotVision.AI detects the following diseases:
             * Actinic keratosis,
