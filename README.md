@@ -34,6 +34,9 @@
     ```bash
     streamlit run ./About.py
     ```
+## Demo Video
+[![SpotVision.ai](https://img.youtube.com/vi/IDWixA8eeG8/0.jpg)](https://www.youtube.com/watch?v=IDWixA8eeG8)
+
 
 ## Snapshots
 
