@@ -39,9 +39,7 @@ with st.container():
                 Developed By:-
 
                 1. Archana Singandhupe 
-                1. Bhavesh Waghmare
-                1. Divya Bhoyar
-                1. Bharti Jambhulkar
+        
 
                 Under the Guidance of Prof. Malvika Saraf """)
     with right_column:
