@@ -36,7 +36,7 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.write("""
-                Developed with ❤️ By Archana Singandhupe""")
+                Developed with ❤️ by Archana Singandhupe""")
     with right_column:
         st_lottie(lottie_welcome, height=300, key="welcome")
 # st.header("Melanoma detection at your skin images.")
